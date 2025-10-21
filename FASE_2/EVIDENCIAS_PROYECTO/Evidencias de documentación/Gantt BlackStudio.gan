@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Carta Gantt BlackStudio" company="" webLink="http://" view-date="2025-11-10" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.3.3316" locale="es_CL">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd15" name="Notes" width="20" order="-1"/>
+        <field id="tpd3" name="Name" width="200" order="0"/>
+        <field id="tpd4" name="Begin date" width="75" order="1"/>
+        <field id="tpd5" name="End date" width="75" order="2"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+        <timeline><![CDATA[6]]></timeline>
+        <option id="color.recent"><![CDATA[#9999ff #66ff66 #99ff99 #ccff99 #ffcc33 #ff9999 #ff6699 #ff33cc #6666ff #99ccff]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="1" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" uid="a1f89cff84234715ad87fc48c8a72507" name="Planificación y Definición" color="#99ffff" meeting="false" start="2025-09-01" duration="5" complete="100" expand="true">
+            <notes><![CDATA[Revisión de Requerimientos]]></notes>
+        </task>
+        <task id="2" uid="e914dd2a566c47b4b414cc330444d014" name="Planificación y Definición" meeting="false" start="2025-09-09" duration="4" complete="100" expand="true">
+            <notes><![CDATA[Elaboración de diagramas de uso, de caso, arquitecturas...]]></notes>
+        </task>
+        <task id="1" uid="28291aa3d7594fad8d3de3f37df6bbae" name="Planificación y Definición" color="#99ccff" meeting="false" start="2025-09-16" duration="2" complete="100" expand="true">
+            <notes><![CDATA[Validación de StakeHolders]]></notes>
+        </task>
+        <task id="3" uid="39b2db3dc8c04c27b9ff430a154b6988" name="Diseño de Sistema" color="#6666ff" meeting="false" start="2025-09-18" duration="1" complete="100" expand="true">
+            <notes><![CDATA[Diseño de la arquitectura de microservicios]]></notes>
+        </task>
+        <task id="4" uid="270adc2624bf4d6ca82e1811d132b275" name="Diseño de Sistema" color="#6666ff" meeting="false" start="2025-09-22" duration="2" complete="100" expand="true">
+            <notes><![CDATA[Definición de Base de datos]]></notes>
+        </task>
+        <task id="5" uid="e674bf1fac96436ab5eaab6bf78e4f58" name="Diseño de Sistema" color="#9999ff" meeting="false" start="2025-09-24" duration="2" complete="100" expand="true">
+            <notes><![CDATA[Diseño UI/UX (Web y Mobile)]]></notes>
+        </task>
+        <task id="6" uid="12d314663f6d417f8d8b3337e8c3790d" name="Desarrollo" color="#ff33cc" meeting="false" start="2025-09-29" duration="12" complete="20" priority="4" expand="true">
+            <notes><![CDATA[Desarrollo de backend]]></notes>
+        </task>
+        <task id="7" uid="948a9e53fbdb4f45827592621c456281" name="Desarrollo" color="#ff6699" meeting="false" start="2025-10-16" duration="9" complete="0" priority="2" expand="true">
+            <notes><![CDATA[Desarrollo de Frontend (Django + Angular)]]></notes>
+        </task>
+        <task id="8" uid="18600d5510264aab8f5b5c2d24d1348f" name="Desarrollo" color="#ff9999" meeting="false" start="2025-11-03" duration="8" complete="0" priority="2" expand="true">
+            <notes><![CDATA[Desarrollo de Aplicación mobile]]></notes>
+        </task>
+        <task id="9" uid="82d229d5762344e9b4fe5cb449c66aae" name="Pruebas" color="#ffcc33" meeting="false" start="2025-11-17" duration="1" complete="0" expand="true">
+            <notes><![CDATA[Pruebas unitarias, de rendimiento, de stress]]></notes>
+        </task>
+        <task id="10" uid="b49fbb44efc346b5b280a4655b26816f" name="Pruebas" color="#ccff99" meeting="false" start="2025-11-18" duration="2" complete="0" expand="true">
+            <notes><![CDATA[Ajustes y correciones]]></notes>
+        </task>
+        <task id="11" uid="c5938aede27542eab5cd7d643abb44bd" name="Despliegue" color="#99ff99" meeting="false" start="2025-11-20" duration="1" complete="0" expand="true">
+            <notes><![CDATA[Configuración de entornos]]></notes>
+        </task>
+        <task id="12" uid="c29180827343447eabd88799f230cd99" name="Despliegue" color="#66ff66" meeting="false" start="2025-11-24" duration="4" complete="0" expand="true">
+            <notes><![CDATA[Validación con usuarios finales]]></notes>
+        </task>
+        <task id="13" uid="a3885f3214a74434992fe7b2d1d2dea0" name="Mantenimiento y Documentación" color="#9999ff" meeting="false" start="2025-12-01" duration="7" complete="0" expand="true">
+            <notes><![CDATA[Estrategias de escalabilidad, mantenimiento correctivo, preventivo y evolutivo]]></notes>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles>
+        <role id="1" name="Felipe"/>
+        <role id="2" name="Martin"/>
+        <role id="3" name="Dylan"/>
+    </roles>
+</project>
